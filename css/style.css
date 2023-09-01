@@ -1,0 +1,245 @@
+
+
+.bg-portafolio-nav{
+    background-color: rgb(71, 179, 60);
+}
+
+.btn-primary-p{
+    padding: 12px 40px;
+    color: rgb(28, 126, 211);
+    background: rgb(164, 183, 184);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .5s;
+
+
+}
+#services{
+    text-align: center;
+    padding: 100px 0;
+}
+
+#services h2{
+    margin-bottom: 40px;
+}
+
+#juego{
+    text-align: center;
+    padding: 100px 0;
+}
+
+#juego h3{
+    color: rgb(32, 187, 208);
+    font-size:  45px;
+    margin-bottom: 45px;
+}
+
+#juego p{
+    font-size: 20px;
+
+}
+#juego img{
+    width: 500px;
+    max-width: 100%;
+}
+
+#services h2{
+    margin-bottom: 40px;
+}
+
+
+
+#p{
+    text-align: center
+    padding 50px;
+    background-color: rgb(44, 182, 187);
+    
+}
+
+#carouselheroCaptions .carousel-caption{
+    position: absolute;
+    z-index: 9;
+    bottom: 50%;
+}
+
+#carouselheroCaptions .carousel-caption h5{
+    font-size: 50px;
+}
+
+#carouselheroCaptions .carousel-caption p{
+    font-size: 20px;
+}
+
+#carouselheroCaptions .carousel-indicators{
+    bottom: 40%;
+}
+
+#carouselheroCaptions .carousel-indicators button{
+    width: 24px;
+    height: 20px ;
+    border-radius: 50%;
+}
+
+#juego img{
+    width: 500px;
+    max-width: 100%;
+}
+
+#services .item-servicios{
+    padding-bottom: 30px;
+    padding-top: 15px;
+    transition: .5s;
+}
+
+#services .item-servicios:hover{
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.youtube{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 99;
+}
+
+.youtube{
+    -webkit-box-shadow: 0px 0px 6px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px 10px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 6px 10px rgba(0,0,0,0.75);
+}
+
+#Blog img{
+width: 500px;
+max-width: 100%;
+}
+
+#Blog{
+    padding: 50px;
+    background: grey;
+
+}
+#Blog h2{
+    text-align: center;
+}
+
+
+#JavaScript{
+    width: 100%;
+    height: 100 vh;
+    position: relative;
+    padding: 120px 0;
+    background: rgb(98, 192, 199);
+    overflow: hidden;
+    z-index: 0;
+    transition: .5s;
+
+}
+#Panel_lateral{
+    width: 30%;
+    height: 100vh;
+    background: rgb(61, 54, 54);
+    border-right: 4px solid gray;
+    position: absolute;
+    top: 0px;
+    left: -30%;
+    z-index: 9;
+    transition: .5s;
+    }
+
+#Panel_lateral.active{
+        left: 0;
+    }
+#Pane_lateral .close-panel{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+#Panel_lateral h3{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+#Panel_lateral ul{
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+
+
+}
+
+#Panel_lateral li{
+    list-style: none;
+}
+
+#Panel_lateral li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background: black;
+    border: 1 px solid aquamarine;
+    color: white;
+    margin: 15px;
+}
+
+
+
+
+#JavaScript h2{
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+#JavaScript button{
+    background: black;
+    color: rgb(11, 197, 249);
+    border: 1px solid rgb(7, 234, 246);
+    margin: 5px 8px;
+    border-radius: 4px solid gray;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s;z-index: 9;
+    transition: .5s;
+}
+#javaScript button:hover{
+    background: green;
+    color: rgb(0, 255, 225);
+}
+#JavaScript hr{
+    border-color: white;
+
+}
+#figura{
+    width: 200px;
+    height: 200px;
+    background: aquamarine;
+    margin: 40px auto;
+    transition: 1s;
+
+}
+
+#JavaScript.figura{
+    text-align: center;
+    float: right ;
+    width: 500px;
+    max-width: 100%;
+}
+
+#figura.Circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(116, 116, 170); 
+
+}
+
+#figura.hor{
+    width: 400px;
+}
+
+#figura.top{
+    transform: translateY(-100px);
+}
